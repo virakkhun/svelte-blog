@@ -1,0 +1,37 @@
+@import url('https://api.fontshare.com/v2/css?f[]=plein@400&display=swap');
+
+:root {
+	font-weight: 400;
+	font-family: 'Plein', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	scroll-behavior: smooth;
+	scroll-snap-align: start;
+	background-color: rgb(49, 49, 49);
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.hoverFilter:hover {
+	transition: all 500ms ease;
+	filter: drop-shadow(0 0 2rem #ff0ffe);
+}
+
+.filter:hover {
+	transition: all 500ms ease;
+	filter: drop-shadow(0 0 2rem #ff0ffe);
+}
+
+button,
+textarea {
+	font-family: 'Plein', sans-serif;
+}
