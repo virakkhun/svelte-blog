@@ -22,13 +22,23 @@ body::-webkit-scrollbar {
 }
 
 .hoverFilter:hover {
-	transition: all 500ms ease;
-	filter: drop-shadow(0 0 2rem #ff0ffe);
+	transition: all 500ms ease-out;
+	filter: drop-shadow(0 0 2em #ff0ffe);
 }
 
 .filter:hover {
-	transition: all 500ms ease;
-	filter: drop-shadow(0 0 2rem #ff0ffe);
+	transition: all 500ms ease-out;
+	filter: drop-shadow(0 0 2em #ff0ffe);
+}
+
+.filterLarge:hover {
+	transition: all 500ms ease-out;
+	filter: drop-shadow(0 0 4em #e6e6e6);
+}
+
+.filter-sm:hover {
+	transition: all 500ms ease-out;
+	filter: drop-shadow(0 0 1em #e6e6e6);
 }
 
 button,
