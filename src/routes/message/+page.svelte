@@ -6,8 +6,8 @@
     document.title =  'Contact'
   })
 </script>
-<div>
-  <div class="p-10 rounded-md mx-auto my-20 bg-dark border border-white/10 shadow-lg w-1/2">
+<div class="lg:h-auto h-screen">
+  <div class="p-10 rounded-md mx-auto my-20 bg-dark border border-white/10 shadow-lg md:w-1/2 w-4/5">
     <p class="font-bold text-white">Contact Us</p>
     <div class="border-b border-white/20 my-4"></div>
     <div class="flex flex-col gap-4">
