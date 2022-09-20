@@ -45,3 +45,8 @@ button,
 textarea {
 	font-family: 'Plein', sans-serif;
 }
+
+.article.show {
+	transform: translateX(0);
+	transition: all 200ms ease;
+}
